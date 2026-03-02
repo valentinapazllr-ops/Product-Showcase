@@ -1,0 +1,24 @@
+{
+  "name": "product-showcase",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "firebase deploy --only hosting",
+    "screenshot": "node scripts/screenshot.js"
+  },
+  "dependencies": {
+    "firebase": "^12.10.0",
+    "vue": "^3.5.25",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.2",
+    "firebase-tools": "^15.8.0",
+    "puppeteer": "^24.37.5",
+    "vite": "^7.3.1"
+  }
+}
